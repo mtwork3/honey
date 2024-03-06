@@ -392,13 +392,14 @@ section h2 {
 
 .parallax {
   background-image: url(../img/bg-img@2x.jpg);
-  background-attachment: fixed;
   background-size: cover;
   background-position: center;
   background-repeat: no-repeat;
   width: 100%;
   height: 1070px;
 }
+
+
 
 .bg-cover1 {
   position: absolute;
