@@ -1,17 +1,5 @@
 'use strict';
-$(function () {
-  var parallaxContent = $("#parallax");
-  var parallaxNum = parallaxContent.offset().top;
-  var parallaxFactor = 0.5;
-  var windowHeight = $(window).height();
-  var scrollYStart = parallaxNum - windowHeight;
-  $(window).on('scroll', function () {
-      var scrollY = $(this).scrollTop();
-      if (scrollY > scrollYStart) {
-          parallaxContent.css('background-position-y', (scrollY - parallaxNum) * parallaxFactor + 'px');
-      }
-  });
-});
+
 
 window.addEventListener('scroll', () => {
   const logo = document.querySelector('.logo');
